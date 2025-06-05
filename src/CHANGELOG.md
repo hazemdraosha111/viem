@@ -1,5 +1,17 @@
 # viem
 
+## 2.31.0
+
+### Minor Changes
+
+- [#3702](https://github.com/wevm/viem/pull/3702) [`b55ec5a6ee448367d3da844303a6f1a5bc71514a`](https://github.com/wevm/viem/commit/b55ec5a6ee448367d3da844303a6f1a5bc71514a) Thanks [@jxom](https://github.com/jxom)! - Added `blockTime` to OP Stack (2s) & ZKsync (1s) chains.
+
+- [#3702](https://github.com/wevm/viem/pull/3702) [`b55ec5a6ee448367d3da844303a6f1a5bc71514a`](https://github.com/wevm/viem/commit/b55ec5a6ee448367d3da844303a6f1a5bc71514a) Thanks [@jxom](https://github.com/jxom)! - Added `blockTime` to the `Chain` type. Polling intervals are now influenced from this property (if set).
+
+### Patch Changes
+
+- [#3695](https://github.com/wevm/viem/pull/3695) [`20b1ed2a08a4728e6b6e20b4e3ce1f2124fef20d`](https://github.com/wevm/viem/commit/20b1ed2a08a4728e6b6e20b4e3ce1f2124fef20d) Thanks [@ersanyakit](https://github.com/ersanyakit)! - Added multicall3 to Chiliz chain.
+
 ## 2.30.6
 
 ### Patch Changes
